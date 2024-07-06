@@ -19,23 +19,23 @@ export class HeaderComponent implements OnInit {
         label: 'Home',
         routerLink: '/home',
       },
-      {
-        label: 'Conócenos',
-        items: [
-          {
-              label: 'Profesores',
-              routerLink: 'conocenos/profesores',
-          },
-          {
-              label: 'La escuela',
-              routerLink: 'conocenos/escuela'
-          }
-      ]
-      },
-      {
-        label: 'Bailes',
-        routerLink: '/bailes'
-      },
+ //     {
+ //        label: 'Conócenos',
+ //        items: [
+ //          {
+ //              label: 'Profesores',
+ //              routerLink: 'conocenos/profesores',
+ //          },
+ //          {
+ //              label: 'La escuela',
+ //              routerLink: 'conocenos/escuela'
+ //          }
+ //      ]
+ //      },
+  //     {
+  //       label: 'Bailes',
+  //       routerLink: '/bailes'
+  //     },
       {
         label: 'Horarios',
         routerLink: '/horarios'
