@@ -1,0 +1,14 @@
+div a.content-center {
+    background-color: black;
+    cursor: pointer;
+    span {
+        color: white;
+    }
+}
+div a.content-center.activated {
+    background-color: white;
+    cursor: default;
+    span {
+        color: black;
+    }
+}

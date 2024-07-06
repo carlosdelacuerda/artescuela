@@ -1,0 +1,6 @@
+<h1 class="text-4xl font-black text-center p-5">Este es nuestro equipo</h1>
+<section class="grid grid-cols-2">
+    @for (profesor of profesores; track profesor.id) {
+        <app-card [profesor]="profesor" class="col-span-2 my-2 sm:col-span-1"></app-card>
+    }
+</section>

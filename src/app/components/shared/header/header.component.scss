@@ -1,0 +1,11 @@
+img {
+    height: 30px;
+    top: 13px;
+    @media (max-width: 960px) {
+        right: 10px;
+      }
+}
+:host ::ng-deep .p-menubar p-menubarsub { 
+    margin-left: auto;
+    margin-right: 0;
+}

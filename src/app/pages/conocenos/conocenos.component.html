@@ -1,0 +1,6 @@
+<app-nav [section]="activeSection"></app-nav>
+@if (activeSection === 'profesores') {
+    <app-profesores></app-profesores>
+} @else if (activeSection === 'escuela') {
+    <app-escuela></app-escuela>
+}

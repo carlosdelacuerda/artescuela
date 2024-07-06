@@ -1,0 +1,15 @@
+section {
+    padding: 20px;
+    .profile {
+        display: flex;
+        margin: auto;
+        height: 130px;
+        width: 130px;
+        img {
+            height: auto;
+            width: 100%;
+            display: flex;
+            margin: auto;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+app-hero-text {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgba($color: #fff, $alpha: 0.6);
+}
+app-hero-img {
+    position: absolute;
+    height: 400px;
+    right: 50px;
+    bottom: 60px;
+    max-width: calc(100% - 60px);
+}

@@ -1,1 +1,46 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind utilities;
+
+@import "primeng/resources/themes/arya-orange/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
+
+* {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+html {
+    min-height: 100%;
+    position: relative;
+  }
+  body {
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  footer {
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    color: white;
+  }
+  .p-menubar {
+    background-color: black!important;
+    color: white !important;
+    border-radius: 0;
+    a span{
+      color: white !important;
+    }
+    a:hover span{
+      color: gray !important;
+    }
+  }
+  .p-menubar-root-list, .p-menuitem-content {
+    background-color: black !important;
+  } 
+  .p-menuitem-active svg {
+    color: white !important;
+  }
+  

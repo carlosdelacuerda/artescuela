@@ -1,0 +1,8 @@
+<div class="grid grid-cols-2 h-10">
+    <a class="grid grid-cols-1 w-full content-center" [ngClass]="{'activated': section=='profesores'}" (click)="click('profesores')">
+        <span class="grid w-full text-center min-w-full">Profesores</span>
+    </a>
+    <a class="grid grid-cols-1 w-full content-center" [ngClass]="{'activated': section=='escuela'}" (click)="click('escuela')">
+        <span class="grid w-full text-center min-w-full">La Escuela</span>
+    </a>
+</div>
