@@ -6,6 +6,7 @@ import { BailesComponent } from './pages/bailes/bailes.component';
 import { HorariosComponent } from './pages/horarios/horarios.component';
 import { TarifasComponent } from './pages/tarifas/tarifas.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
+import { ConocenosTempComponent } from './components/conocenos/conocenos-temp/conocenos-temp.component';
 
 export const routes: Routes = [
   { path: '',
@@ -15,6 +16,11 @@ export const routes: Routes = [
           path: 'home', 
           title: 'Home Artescuela Escuela de Baile en Pinto',
           component: HomeComponent,
+        },
+        {
+          path: 'conocenos', 
+          title: 'Conócenos Artescuela Escuela de Baile en Pinto',
+          component: ConocenosTempComponent,
         },
         {
           path: 'conocenos/:section', 
