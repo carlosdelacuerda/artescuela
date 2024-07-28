@@ -41,6 +41,10 @@ export class HeaderComponent implements OnInit {
   //       routerLink: '/bailes'
   //     },
       {
+        label: 'Fotos',
+        routerLink: '/fotos'
+      },
+      {
         label: 'Horarios',
         routerLink: '/horarios'
       },
